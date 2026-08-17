@@ -81,15 +81,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "LumenAI — One AI Workspace, Three Powerful Tools" },
       {
         name: "description",
-        content: "Write smarter emails, summarize meetings and research anything from one AI workspace.",
+        content: "Write smarter emails, turn meetings into action, and research anything — all from one intelligent AI workspace.",
       },
       { property: "og:title", content: "LumenAI — One AI Workspace, Three Powerful Tools" },
       {
         property: "og:description",
-        content: "Write smarter emails, summarize meetings and research anything from one AI workspace.",
+        content: "Write smarter emails, turn meetings into action, and research anything — all from one intelligent AI workspace.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "LumenAI — One AI Workspace, Three Powerful Tools" },
+      { name: "twitter:description", content: "Write smarter emails, turn meetings into action, and research anything — all from one intelligent AI workspace." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7509d27adfbada8b31daab0013ee1440/id-preview-957411ea--4aae99c4-9a90-4fc8-8ba1-7eb9c25c775f.lovable.app-1786970741668.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7509d27adfbada8b31daab0013ee1440/id-preview-957411ea--4aae99c4-9a90-4fc8-8ba1-7eb9c25c775f.lovable.app-1786970741668.png" },
     ],
     links: [
       {

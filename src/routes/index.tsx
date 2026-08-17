@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "LumenAI — One AI Workspace, Three Powerful Tools" },
       {
         property: "og:description",
-        content: "Write smarter emails, turn meetings into action, and research anything from one workspace.",
+        content: "Write smarter emails, turn meetings into action, and research anything — all from one intelligent AI workspace.",
       },
     ],
   }),
