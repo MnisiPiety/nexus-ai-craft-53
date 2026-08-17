@@ -8,7 +8,7 @@ function toMessage(error: unknown) {
 }
 
 export const generateEmailFn = createServerFn({ method: "POST" })
-  .inputValidator((input: EmailInput & { refine?: string; previous?: EmailResult }) => input)
+  .inputValidator((input: EmailInput & { refine?: string | undefined; previous?: EmailResult | undefined }) => input)
   .handler(async ({ data }) => {
     try {
       const result = await chatJson<EmailResult>([
